@@ -1,0 +1,11 @@
+<div class="float">
+  <input class="crNumber input1" [(ngModel)]="colNumber" (input)="reRender()">
+  <input class="crNumber input2" [(ngModel)]="rowNumber" (input)="reRender()">
+  <button (click)="changeWidth()">width</button>
+</div>
+
+<section id="sec1" class="sec1">
+  <div class="colEach" *ngFor="let i of blockNumberArray">
+    <h1>{{ i }}</h1>
+  </div>
+</section>

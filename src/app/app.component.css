@@ -1,0 +1,29 @@
+.float {
+  position: absolute;
+}
+
+.crNumber {
+  display: flex;
+  position: relative;
+  font-size: 3rem;
+  width: 7rem;
+  color: skyblue;
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.sec1 {
+  width: 99vw;
+  height: 97vh;
+
+  display: grid;
+
+  justify-items: center;
+  align-items: center;
+  float: right;
+}
+
+.colEach {
+  width: 98%;
+  height: 98%;
+  border: red solid 2px;
+}
